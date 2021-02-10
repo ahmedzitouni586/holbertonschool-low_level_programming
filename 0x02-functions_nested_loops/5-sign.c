@@ -2,9 +2,9 @@
 /**
  * int print_sign - print sign
  *
- *Return : 1 if grater than zero
- *Return : 0 if is zero
- *Return : -1 if less than  zero
+ * Return : 1 if grater than zero
+ * Return : 0 if is zero
+ * Return : -1 if less than  zero
  */
 int print_sign(int n)
 {
