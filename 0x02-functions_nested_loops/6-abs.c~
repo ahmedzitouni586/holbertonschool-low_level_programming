@@ -1,0 +1,14 @@
+#include "holberton.h"
+/**
+ * int _abs - print abs
+ *
+ * Return : success
+ */
+int _abs(int)
+{
+int m = abs(200);
+int n = abs(-400);
+_putchar ("%d\n", m);
+_putchar (" %d \n",n);
+return (0);
+}
