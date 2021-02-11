@@ -1,6 +1,7 @@
 #include "holberton.h"
 /**
  * _isupper - upper-case character test
+ * description - test the uppercase character
  * Return: non-zero
  */
 
