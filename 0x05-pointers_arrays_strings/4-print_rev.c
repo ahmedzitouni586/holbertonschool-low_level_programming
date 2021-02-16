@@ -10,7 +10,7 @@ int j, k;
 j = 0;
 while (*(s + j) != 0)
 {
-j = j +1;
+j = j + 1;
 }
 for (k = j - 1; k >= 0; k--)
 {

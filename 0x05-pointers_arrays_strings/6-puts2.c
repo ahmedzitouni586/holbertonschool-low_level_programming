@@ -10,7 +10,7 @@ int j;
 for (j = 0; *(str + j); j++)
 {
 if (j % 2 == 0)
-{        
+{
 _putchar(*(str + j));
 }
 }
