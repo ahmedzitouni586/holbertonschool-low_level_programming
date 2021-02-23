@@ -1,1 +1,1 @@
-more pointer arreays and strings .
+more pointer arreays and strings
