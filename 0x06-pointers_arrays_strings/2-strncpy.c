@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
  * _strncpy - copies a string
- * @dest: number one 
+ * @dest: number one
  * @src: number two
  * @n: number three
  * Return: dest
