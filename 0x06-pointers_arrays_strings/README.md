@@ -1,0 +1,1 @@
+more pointer arreays and strings
