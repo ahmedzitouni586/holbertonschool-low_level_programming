@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
- *int_islower - print alphabet lower case
- *
- *Return : 0
+ * _islower - print alphabet lower case
+ * @c: first integer
+ * Return: value
  */
 int _islower(int c)
 {
