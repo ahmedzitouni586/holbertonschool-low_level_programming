@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
- * int _abs - print abs
- *
- * Return : success
+ * _abs - print abs
+ * @m: integer
+ * Return: success
  */
 int _abs(int m)
 {
