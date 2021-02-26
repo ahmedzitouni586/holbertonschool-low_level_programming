@@ -1,17 +1,15 @@
 #include "holberton.h"
 /**
- * _puts : print a string
- * @*str : number one
- * Return : 0
+ * _puts - print a string
+ * @str: string
+ * Return: 0
  */
 void _puts(char *str)
 {
-int j = 0;
-
-while (*(str + j))
+while (*str)
 {
-_putchar(*(str + j));
-j = j + 1;
+_putchar(*str);
+str++;
 }
 _putchar('\n');
 }
