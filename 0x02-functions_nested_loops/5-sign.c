@@ -1,10 +1,8 @@
 #include "holberton.h"
 /**
- * int print_sign - print sign
- *
- * Return : 1 if grater than zero
- * Return : 0 if is zero
- * Return : -1 if less than  zero
+ * print_sign - print sign
+ * @n: first digit
+ * Return: value
  */
 int print_sign(int n)
 {
@@ -14,15 +12,15 @@ if (n > 0)
 _putchar ('+');
 r = 1;
 }
-else if (n < 1)
-{
-_putchar ('-');
-r = -1;
-}
 else if (n == 0)
 {
 _putchar ('0');
 r = 0;
+}
+else if (n < 0)
+{
+_putchar ('-');
+r = -1;
 }
 return (r);
 }
