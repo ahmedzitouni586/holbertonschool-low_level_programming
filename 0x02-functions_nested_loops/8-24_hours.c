@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
- * void jack_bauer - printevery minute of the day
+ * jack_bauer - printevery minute of the day
  *
- * Return : 0
+ * Return: 0
  */
 void jack_bauer(void)
 {
