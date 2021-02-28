@@ -8,11 +8,14 @@
 void reverse_array(int *a, int n)
 {
 int i, j;
-
-for (i = 0; i < n / 2; i++)
+i = 0;
+n = n - 1;
+while (i < n)
 {
-j = *(a + i);
-*(a + i) = a[n - i - 1];
-a[n - i - 1] = j;
+j = a[i];
+a[i] = a[n];
+a[n] = j;
+i++;
+n--;
 }
 }
