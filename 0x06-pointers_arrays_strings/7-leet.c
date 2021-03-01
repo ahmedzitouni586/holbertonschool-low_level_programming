@@ -11,7 +11,7 @@ int j;
 char a[] = {'A', 'E', 'O', 'T', 'L'};
 char b[] = {'a', 'e', 'o', 't', 'l'};
 char l[] = {'4', '3', '0', '7', '1'};
-while (*(n + i))
+while (n[i])
 {
 for (j = 0; j <= 5; j++)
 {
