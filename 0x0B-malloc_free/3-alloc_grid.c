@@ -24,6 +24,10 @@ for (h = 0; h < height; h++)
 x[h] = malloc(sizeof(int) * width);
 if (x[h] == NULL)
 {
+for (w = 0; w < h; w++)
+{
+free(x[w]);
+}
 free(x);
 return (NULL);
 }
