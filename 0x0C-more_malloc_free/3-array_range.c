@@ -20,9 +20,9 @@ if (p == NULL)
 {
 return (NULL);
 }
-for (i = min; i < max; i++)
+while (j < i)
 {
-p[j] = i;
+p[j] = min;
 min++;
 j++;
 
