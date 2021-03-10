@@ -14,5 +14,6 @@ if (p == NULL)
 {
 exit(98);
 }
+free(p);
 return (p);
 }
