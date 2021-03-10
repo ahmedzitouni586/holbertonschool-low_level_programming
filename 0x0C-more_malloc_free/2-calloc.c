@@ -18,6 +18,5 @@ if (p == NULL)
 {
 return (NULL);
 }
-free(p);
 return (p);
 }
