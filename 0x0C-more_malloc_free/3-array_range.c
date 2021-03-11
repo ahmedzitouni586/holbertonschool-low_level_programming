@@ -20,12 +20,11 @@ if (p == NULL)
 {
 return (NULL);
 }
-while (j < i)
+for (i = 0; i < min; i++)
 {
-p[j] = min;
+p[j] = i;
 min++;
 j++;
-
 }
 return (p);
 }
