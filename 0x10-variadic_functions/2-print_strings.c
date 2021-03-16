@@ -18,10 +18,10 @@ s = va_arg(xptr, char *);
 if (s)
 printf("%s", s);
 else
-printf("(nail)");
+printf("(nil)");
 if (x < n - 1 && separator != NULL)
 printf("%s", separator);
 }
-printf("\n");
 va_end(xptr);
+printf("\n");
 }
