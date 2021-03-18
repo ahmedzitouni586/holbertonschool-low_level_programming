@@ -1,0 +1,4 @@
+#ifndef SIZE_T
+#define SIZE_T
+size_t print_list(const list_t *h);
+#endif
