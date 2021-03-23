@@ -1,27 +1,32 @@
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
 #include "lists.h"
 /**
-* get_nodeint_at_index - return index
-* @head: pionter
-* @index: index
-* Return: value
-*/
+ * *get_nodeint_at_index - function
+ * @head : pointer
+ * @index : index of the node
+ * Return: 0
+ */
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
-unsigned int i, len = 0;
-listint_t *temp;
-temp = head;
-while (head != NULL)
-{
-head = head->next;
-len++;
-}
-if (len < index)
+unsigned int i;
+listint_t *string, *new;
+if (head == '\0')
 return (NULL);
-for (i = 1; i < len - index + 1; i++)
+string = head;
+for (i = 0; string != NULL; i++)
 {
-if (temp == NULL)
-return (NULL);
-temp = temp->next;
+string = string->next;
 }
-return (temp);
+if (i < index)
+return (NULL);
+new = head;
+for (i = 0; i < index; i++)
+{
+if (new == NULL)
+return (NULL);
+new = new->next;
+}
+return (new);
 }
