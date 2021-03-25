@@ -12,6 +12,6 @@ unsigned int a = 1;
 if (sizeof(n) * 8 < index)
 return (-1);
 a <<= index;
-*n = *n | y;
+*n = *n | a;
 return (1);
 }
