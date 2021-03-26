@@ -1,11 +1,11 @@
-include "holberton.h"
+#include "holberton.h"
 #include <stdio.h>
 /**
- * Butterfly - function
+ * Butterfly - fiirst function
  * @s: string
  * @i: counter
  * @a: lenght of string
- * Return: value
+ * Return: reciprocal return
  */
 int Butterfly(char *s, int a, int i)
 {
@@ -18,7 +18,7 @@ return (0);
 return (1);
 }
 /**
- * ButterFly1 - lenght of the string
+ * ButterFly1 - check the lenght of the string
  * @s: string
  * @i: counter
  * Return: value
@@ -30,7 +30,7 @@ return (ButterFly1(s, ++i));
 return (--i);
 }
 /**
- * is_palindrome - check the number
+ * is_palindrome - check the number of palindrome
  * @s: string
  * Return: value
  */
