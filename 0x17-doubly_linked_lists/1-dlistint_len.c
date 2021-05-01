@@ -9,11 +9,11 @@
  */
 size_t dlistint_len(const dlistint_t *h)
 {
-   size_t res = 0;
-   while (h != NULL)
-   {
-       res++;
-       h = h->next;
-   }
-   return (res);
+size_t res = 0;
+while (h != NULL)
+{
+res++;
+h = h->next;
+}
+return (res);
 }
