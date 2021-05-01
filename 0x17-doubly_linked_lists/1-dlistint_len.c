@@ -3,14 +3,14 @@
 #include <stdio.h>
 #include "lists.h"
 /**
- * dlistint_len - find the length of a doubly linked list
+ * dlistint_len - find the size of a doubly linked list
  * @h: head pointer
  * Return: value
  */
 size_t dlistint_len(const dlistint_t *h)
 {
    size_t res = 0;
-   while (node != NULL)
+   while (h != NULL)
    {
        res++;
        h = h->next;
