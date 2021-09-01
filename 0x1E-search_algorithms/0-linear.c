@@ -18,7 +18,6 @@ return (-1);
 for (i = 0; i < size; i++)
 {
 printf("Value checked array[%i] = [%d]\n", i, array[i]);
-getchar();
 if (array[i] == value)
 {
 return (i);
